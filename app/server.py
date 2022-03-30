@@ -1,6 +1,11 @@
 import aiohttp
 import asyncio
 import uvicorn
+!pip install -Uqq fastbook
+import fastbook
+fastbook.setup_book()
+from fastbook import *
+from fastai.vision.widgets import *
 from fastai import *
 from fastai.vision import *
 from io import BytesIO
