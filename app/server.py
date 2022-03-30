@@ -1,9 +1,7 @@
 import aiohttp
 import asyncio
 import uvicorn
-import fastbook
 fastbook.setup_book()
-from fastbook import *
 from fastai.vision.widgets import *
 from fastai import *
 from fastai.vision import *
